@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A27DCB8C2B7B8715009CD240 /* FitnessTracker Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A27DCB8B2B7B8715009CD240 /* FitnessTracker Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A27DCB912B7B8715009CD240 /* FitnessTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DCB902B7B8715009CD240 /* FitnessTrackerApp.swift */; };
-		A27DCB932B7B8715009CD240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DCB922B7B8715009CD240 /* ContentView.swift */; };
+		A27DCB932B7B8715009CD240 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DCB922B7B8715009CD240 /* StartView.swift */; };
 		A27DCB952B7B8719009CD240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27DCB942B7B8719009CD240 /* Assets.xcassets */; };
 		A27DCB982B7B8719009CD240 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27DCB972B7B8719009CD240 /* Preview Assets.xcassets */; };
 		A27DCBA22B7B871A009CD240 /* FitnessTracker_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DCBA12B7B871A009CD240 /* FitnessTracker_Watch_AppTests.swift */; };
@@ -59,7 +59,7 @@
 		A27DCB852B7B8715009CD240 /* FitnessTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27DCB8B2B7B8715009CD240 /* FitnessTracker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitnessTracker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27DCB902B7B8715009CD240 /* FitnessTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTrackerApp.swift; sourceTree = "<group>"; };
-		A27DCB922B7B8715009CD240 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A27DCB922B7B8715009CD240 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		A27DCB942B7B8719009CD240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A27DCB972B7B8719009CD240 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A27DCB9D2B7B871A009CD240 /* FitnessTracker Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitnessTracker Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				A27DCB902B7B8715009CD240 /* FitnessTrackerApp.swift */,
-				A27DCB922B7B8715009CD240 /* ContentView.swift */,
+				A27DCB922B7B8715009CD240 /* StartView.swift */,
 				A27DCB942B7B8719009CD240 /* Assets.xcassets */,
 				A27DCB962B7B8719009CD240 /* Preview Content */,
 			);
@@ -309,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A27DCB932B7B8715009CD240 /* ContentView.swift in Sources */,
+				A27DCB932B7B8715009CD240 /* StartView.swift in Sources */,
 				A27DCB912B7B8715009CD240 /* FitnessTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

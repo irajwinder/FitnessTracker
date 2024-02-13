@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  StartView.swift
 //  FitnessTracker Watch App
 //
 //  Created by Rajwinder Singh on 2/13/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct StartView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    StartView()
 }
