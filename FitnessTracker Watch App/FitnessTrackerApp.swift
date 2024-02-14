@@ -15,7 +15,11 @@ struct FitnessTracker_Watch_AppApp: App {
         WindowGroup {
             NavigationView {
                 StartView()
-            }.environmentObject(workoutManager)
+            }
+            .sheet(isPresented: $workoutManager.showingSummaryView) {
+                SummaryView()
+            }
+            .environmentObject(workoutManager)
         }
     }
 }
